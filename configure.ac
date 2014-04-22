@@ -292,7 +292,7 @@ if test "x$ac_portaudio" = "xyes"; then
 fi
 
 # Some recent distros (eg. fedora, debian) require this.
-ac_libs="$ac_libs -lX11"
+#ac_libs="$ac_libs -lX11"
 
 AC_SUBST(ac_libs)
 
